@@ -1,0 +1,388 @@
+.bod{
+	font: 15px/1.5 arial, sans-serif;
+	padding:0;
+	margin:0;
+	background-image:url("cool0.png");
+	background-size:cover;
+	background-repeat: no repeat;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+ 
+ 
+ .container{
+	 width:80%;
+	 margin:auto;
+	 overflow:hidden;
+ }
+ 
+ header{
+	 background:#35424a;
+	 color:#fff;
+	 padding-top:0px;
+	 min-height:70px;
+	 border-bottom:#fff 3px solid;
+	 
+ }
+ 
+ header a{
+	 color:#fff;
+	 text-decoration:none;
+	 text-transform:uppercase;
+	 font-size:16px;
+ }
+ 
+ header ul{
+	 margin:0;
+	 padding:0;
+ }
+ 
+ header li{
+	 float: left;
+	 display: inline;
+	 padding:0 20px 0 20px;
+	 margin-top:50px;
+ }
+ 
+  
+  header nav{
+	  float: right;
+	 
+  }
+ 
+ .logo{
+	 padding-top:20px;
+	 float:left;
+	 padding-bottom:-30px;
+	 font-size:27px;
+ }
+ 
+ header a:hover{
+	 color:lightBlue;
+	
+ }
+  .park{
+	  color:lightBlue;
+	  font-weight: bold;
+	  font-size:40px;
+  }
+  
+  #main{
+	  min-height:800px;
+	  background-image:
+      linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+      ), 
+	  url("blur.jpg");
+      background-size:cover;
+	  background-repeat: no repeat;
+	  background-position: center center;
+	  background-attachment: fixed;
+	  
+  }
+ 
+#main h1{
+	color:white;
+	font-size:50px;
+	font-weight:bold;
+	padding-bottom:50px;
+	padding-top:30px;
+	text-align:center;
+
+}
+ 
+ #main p{
+	 color:white;
+	 font-size:30px;
+	 font-weight:bold;
+	 line-height:70px;
+	 text-align:center;
+	 padding-top:40px;
+ }
+ 
+ #main span{
+	 color: lightBlue;
+	 font-size:50px;
+ }
+ 
+ 
+     /*ABOUT SECTION*/
+ 
+ #about{
+	 height:800px;
+	 background-image:url("cool1.png");
+	 background-size:cover;
+	 background-repeat: no repeat;
+	 background-position: center center;
+	 background-attachment: fixed;
+ }
+ 
+ #about h1{
+	 text-align:center;
+	 font-size:40px;
+	 font-weight:bold;
+	 color:white;
+ }
+ 
+ #about p{
+	 font-size:20px;
+	 text-align:center;
+	 color:white;
+	 line-height:35px;
+ }
+ 
+ #about ul{
+	 text-align:center;
+	  font-size:30px;
+	  font-weight:bold;
+	  line-height:40px;
+	  color:white;
+ }
+ 
+ #about li{
+	 list-style-type:none;
+	 padding-right:40px;
+	 font-size:20px;
+	 color:white;
+ }
+ 
+ /*SERVICE SECTION*/
+ 
+ #service{
+	 height:800px;
+ }
+ 
+ #service h1{
+	 text-align:center;
+	 font-size:40px;
+	 font-weight:bold;
+ }
+ 
+ #service p{
+	 font-size:20px;
+	 text-align:center;
+	 line-height:35px;
+ }
+ 
+ #service ul{
+	 text-align:center;
+	  font-size:30px;
+	  font-weight:bold;
+	  line-height:44px;
+ }
+ 
+ #service li{
+	 list-style-type:none;
+	 padding-right:40px;
+	 font-size:20px;
+	 text-align:center;
+	 line-height:34px;
+ }
+ 
+
+ #contact{
+	 background-color:#545368;
+	  border:#fff 4px solid;
+ }
+ 
+ #contact .contactus{
+	 color:white;
+	 font-size:25px;
+	 float:left;
+	 padding:20px;
+	 text-align:center;
+	 padding-left:210px;
+ }
+ 
+ #contact h1{
+	 color:white;
+	 text-align:center;
+	 font-size:45px;
+	 font-weight:bold;
+	 padding-top:20px;
+ }
+ 
+ 
+ footer{
+	 background-color:black;
+	 color:white;
+	 text-align:center;
+ }
+ 
+ 
+ h1{
+	 font-family: "Open Sans", arial, sans-serif;
+ }
+ 
+ #service .note{
+	 font-size:33px ;
+	 font-weight:bold;
+	 
+ }
+ 
+ hr{
+	 display:none;
+ }
+ 
+ 
+        /*MEDIA QUERY*/
+ 
+ 
+ @media only screen and (max-width:480px){
+	
+	 .park{
+	  font-size:30px;
+  }
+  
+     .bod{
+	font: 12px/1 arial, sans-serif;
+	padding:0;
+	margin:0;
+  }
+  
+  header{
+	 
+	 padding-top:0px;
+	 padding-bottom:0px;
+ }
+ 
+  header li{
+	 float: left;
+	 display: block;
+	 padding:5px;
+	 margin-right:10px;
+	 margin-top:5px;
+ }
+  
+  header a{
+	 font-size:14px;
+ }
+  
+ .logo{
+	 margin-left:10px;
+ }
+ 
+  #main p{
+	 color:white;
+	 font-size:24px;
+	 line-height:45px;
+	 padding-top:30px;
+ }
+  
+  .park{
+	  font-size:40px;
+  }
+  
+  #about h1{
+	 font-size:32px;
+ }
+ 
+ #about p{
+	 font-size:16px;
+	 line-height:32px;
+ }
+ 
+ #about ul{
+
+	  font-size:20px;
+	  line-height:36px;
+	  
+ }
+ 
+ #about li{
+	 list-style-type:none;
+	 font-size:20px;
+	
+ }
+ 
+ 
+ 
+ #service h1{
+	
+	 font-size:30px;
+	
+ }
+ 
+ #service p{
+	 font-size:16px;
+	 
+	 line-height:30px;
+ }
+ 
+ #service ul{
+	 
+	  font-size:30px;
+	  padding-right:40px;
+	  line-height:30px;
+ }
+ 
+ #service li{
+	 list-style-type: circle;
+	 padding-right:20px;
+	 font-size:16px;
+	 text-align:center;
+	 line-height:30px;
+  }
+ 
+ #service .note{
+	 font-size:20px ;
+ 
+   }
+   
+    #contact .contactus{
+	 font-size:20px;
+	 padding:0px;
+	 text-align:center;
+	 padding-left:25px;
+	 padding-right:20px;
+	 float:none;
+	 
+ }
+ 
+ #contact h1{
+	 font-size:33px;
+	 font-weight:bold;
+	 padding-top:20px;
+ }
+ 
+ 
+ footer{
+	 background-color:black;
+	 color:white;
+	 text-align:center;
+ }
+ 
+  hr{
+	  display:block;
+  }
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
